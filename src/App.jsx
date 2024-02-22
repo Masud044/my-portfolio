@@ -1,9 +1,14 @@
-import Navber from "./component/Home/Navber/Navber";
+import Home from "./component/Home/Home";
+
 
 function App() {
 
   return (
-             <Navber></Navber>
+    
+    <div className='max-w-[1280px] mx-auto'>
+           <Home></Home>
+           
+    </div>
               
   );
 }
