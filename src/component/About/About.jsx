@@ -3,7 +3,7 @@ import image from '../../assets/masud2.jpg'
 const About = () => {
     
     return (
-        <div id='About' className='mt-40'>
+        <div name='About' className='mt-40'>
             <h1 className='text-white text-center text-4xl font-medium'>About <span className='text-cyan-400 text-center text-4xl font-medium'>Me</span> </h1>
           <div className='md:grid md:grid-cols-2  mt-20'>
             <div className='md:flex-none flex items-center justify-center '>

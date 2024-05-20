@@ -1,0 +1,9 @@
+.sticky_header{
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
