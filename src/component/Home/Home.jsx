@@ -1,4 +1,5 @@
 import About from "../About/About";
+import Skill from "../Skill/Skill";
 import Banner from "./Banner";
 
 import Navber from "./Navber";
@@ -13,6 +14,7 @@ const Home = () => {
             
               
               <About></About>
+              <Skill></Skill>
         </div>
     );
 };
