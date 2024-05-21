@@ -59,6 +59,16 @@ const Navber = () => {
           <li>
             <Link
               className="text-white text-[20px] font-medium cursor-pointer"
+              to="Work"
+              smooth={true}
+              duration={500}
+            >
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="text-white text-[20px] font-medium cursor-pointer"
               to="Experience"
               smooth={true}
               duration={500}
@@ -135,6 +145,17 @@ const Navber = () => {
               duration={500}
             >
               Education
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="text-white text-[20px] font-medium cursor-pointer"
+              to="Work"
+              smooth={true}
+              duration={500}
+            >
+              Work
             </Link>
           </li>
           <li className="py-3">

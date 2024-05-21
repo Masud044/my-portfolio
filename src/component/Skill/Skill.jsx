@@ -18,7 +18,7 @@ import git from '../../assets/git.png'
 const Skill = () => {
     return (
         <div name='Skill' className=" max-w-[900px] mx-auto justify-center w-full">
-             <h1 className="text-white text-center text-4xl font-medium mt-20 mb-10">Skill</h1>
+             <h1 className="text-white text-center text-4xl font-medium mt-20 mb-10">My <span className='text-cyan-400'>Skills</span> </h1>
 
              <div className="w-full  grid md:grid-cols-5 md:gap-8 grid-cols-3 gap-4 text-center py-2 px-2 ">
 
