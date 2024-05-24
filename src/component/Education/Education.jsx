@@ -5,7 +5,7 @@ import logo from '../../assets/BSMRSTU_View.jpg'
 const Education = () => {
     return (
 
-        <div name='Education' className="bg-[#FFFAE6] mt-10 mb-10  h-screen max-w-[900px] mx-auto">
+        <div name='Education' className="bg-[#FFFAE6] mt-10 mb-10  md:min-h-screen max-w-[900px] mx-auto">
               
               <div className="flex justify-center items-center mb-10">
                
