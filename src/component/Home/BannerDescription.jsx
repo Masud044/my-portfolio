@@ -62,10 +62,13 @@ const BannerDescription = () => {
         </div>
 
         <div className="flex gap-5 mt-12 md:justify-start justify-center items-center">
-          <FaLinkedin className="h-6 w-6 text-white"></FaLinkedin>
-          <FaGithub className="h-6 w-6 text-white"></FaGithub>
-          <FaInstagramSquare className="h-6 w-6 text-white"></FaInstagramSquare>
-          <FaFacebook className="h-6 w-6 text-white"></FaFacebook>
+          <a href="/"> <FaLinkedin className="h-6 w-6 text-white"></FaLinkedin></a>
+          <a href="/"><FaGithub className="h-6 w-6 text-white"></FaGithub></a>
+         
+          <a href="/"><FaInstagramSquare className="h-6 w-6 text-white"></FaInstagramSquare></a>
+          <a href="/"><FaFacebook className="h-6 w-6 text-white"></FaFacebook></a>
+          
+          
         </div>
       </div>
       <div className="md:flex-none flex items-center justify-center mt-40">
