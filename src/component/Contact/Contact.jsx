@@ -8,6 +8,7 @@ import {
 import { MdEmail } from "react-icons/md";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 
 const Contact = () => {
 
@@ -15,14 +16,22 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs
       .sendForm('service_or8yipe', 'template_pwm4rr1', form.current, {
         publicKey: 'z8mNPGrgIkYY72pFN',
       })
       .then(
-        (result) => {
-          console.log(result);
+        () => {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: `Your Message Send Successfully`,
+            showConfirmButton: false,
+            timer: 1500
+          });
+          form.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);

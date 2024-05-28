@@ -22,7 +22,8 @@ const BannerDescription = () => {
   });
   return (
     <div
-      id="BannerDescription"
+    name='Home'
+      
       className="md:grid md:grid-cols-2 mt-24 md:mt-0"
     >
       <div className="md:mt-40 text-center md:text-start">
