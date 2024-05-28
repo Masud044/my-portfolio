@@ -66,7 +66,7 @@ const Navber = () => {
               Work
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               className="text-white text-[20px] font-medium cursor-pointer"
               to="Experience"
@@ -75,7 +75,7 @@ const Navber = () => {
             >
               Experience
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               className="text-white text-[20px] font-medium cursor-pointer"
@@ -158,7 +158,7 @@ const Navber = () => {
               Work
             </Link>
           </li>
-          <li className="py-3">
+          {/* <li className="py-3">
             <Link
               onClick={handleClick}
               className="text-white text-[20px] font-medium cursor-pointer"
@@ -168,7 +168,7 @@ const Navber = () => {
             >
               Experience
             </Link>
-          </li>
+          </li> */}
           <li className="py-3">
             <Link
               onClick={handleClick}

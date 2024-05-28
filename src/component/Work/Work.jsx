@@ -1,11 +1,15 @@
 import kitchen from '../../assets/kitchen.png'
 import jewelry from '../../assets/jewelryshop.png'
 import yoga from '../../assets/yoga.png'
+import toy from '../../assets/toymarket.png'
+import banksimulation from '../../assets/Banksimulaiton.png'
+import univers from '../../assets/universehub.png'
+
 
 const Work = () => {
     return (
-        <div name='Work' className="w-full md:h-screen">
-            <div className=" mx-auto">
+        <div name='Work' className="">
+            <div className="">
                 <div>
                 <p className="text-white mt-20 text-center text-4xl font-medium">My <span className="text-cyan-400 text-center text-4xl font-medium">Works</span> </p>
                 </div>
@@ -56,7 +60,7 @@ const Work = () => {
                     </div>
 
                 </div>
-                <div style={{backgroundImage:`url(${kitchen})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
+                <div style={{backgroundImage:`url(${toy})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
                     {/* hover effect */}
                         
                     <div className='overlay opacity-0 group-hover:opacity-100 text-center' >
@@ -94,7 +98,7 @@ const Work = () => {
                     </div>
 
                 </div>
-                <div style={{backgroundImage:`url(${kitchen})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
+                <div style={{backgroundImage:`url(${banksimulation})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
                     {/* hover effect */}
                         
                     <div className='overlay opacity-0 group-hover:opacity-100 text-center' >
@@ -113,7 +117,7 @@ const Work = () => {
                     </div>
 
                 </div>
-                <div style={{backgroundImage:`url(${kitchen})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
+                <div style={{backgroundImage:`url(${univers})`}}  className="shadow-2xl shadow-slate-700 group container rounded-md flex justify-center items-center hover:shadow-2xl mx-auto content-div">
                     {/* hover effect */}
                         
                     <div className='overlay opacity-0 group-hover:opacity-100 text-center' >
