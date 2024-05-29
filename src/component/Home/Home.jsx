@@ -1,3 +1,4 @@
+
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
@@ -10,11 +11,14 @@ import Navber from "./Navber";
 
 
 const Home = () => {
+    
+  
+    
     return (
         <div>
              <Navber></Navber>
              
-              <Banner ></Banner>
+             
               <About></About>
               <Skill></Skill>
               <Education></Education>

@@ -9,6 +9,8 @@ import { MdEmail } from "react-icons/md";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
+import { Slide } from "react-awesome-reveal";
+
 
 const Contact = () => {
 
@@ -42,14 +44,18 @@ const Contact = () => {
 
   return (
     <div name="Contact" className=" mt-20">
-      <h1 className="text-white text-center text-4xl font-medium">
+     <Slide duration={2000} direction="down" delay={100}>
+     <h1 className="text-white text-center text-4xl font-medium">
         Contact{" "}
         <span className="text-cyan-400 text-center text-4xl font-medium">
           Me
         </span>{" "}
       </h1>
+     </Slide>
+      
 
       <div className="md:flex mt-10  items-center justify-between">
+        <Slide direction="left" duration={2000} delay={200}>
         <div className="mb-12">
           <div className="flex gap-3 mb-4 md:justify-start items-center px-5 md:px-0 ">
             <FaPhoneAlt className="h-6 w-6 text-cyan-400 border-2 border-solid  rounded-full border-cyan-500 "></FaPhoneAlt>
@@ -91,44 +97,47 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="">
+        </Slide>
+        
+       <Slide duration={2000} direction="right"> <div className="">
 
-          <form ref={form} onSubmit={sendEmail} className="px-5 md:px-0">
-            <input
-              type="text"
-              name="from_name"
-              placeholder="Name"
-              autoComplete="name"
-              required
-              className="block text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3 mb-4"
-            />
-            <input
-              type="Email"
-              name="email"
-              placeholder="Email"
-              autoComplete="email"
-              required
-              className=" text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg mb-4 p-3"
-            />
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              autoComplete="subject"
-              required
-              className=" text-white ring-1 bg-violet-950 w-full mb-4  ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3"
-            />
-            <textarea
-              name="message"
-              id="name"
-              className=" text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3 py-5"
-              placeholder="Message" autoComplete="message"
-              required
-            ></textarea>
-             <input className="rounded-full font-medium text-white border-2 border-cyan-400 py-2 mt-4 px-5 hover:bg-cyan-400" type="submit" value="Send Message" />
-             {/* <button className="rounded-full font-medium text-white border-2 border-cyan-400 py-2 mt-4 px-5 hover:bg-cyan-400">Send Message</button> */}
-          </form>
-        </div>
+<form ref={form} onSubmit={sendEmail} className="px-5 md:px-0">
+  <input
+    type="text"
+    name="from_name"
+    placeholder="Name"
+    autoComplete="name"
+    required
+    className="block text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3 mb-4"
+  />
+  <input
+    type="Email"
+    name="email"
+    placeholder="Email"
+    autoComplete="email"
+    required
+    className=" text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg mb-4 p-3"
+  />
+  <input
+    type="text"
+    name="subject"
+    placeholder="Subject"
+    autoComplete="subject"
+    required
+    className=" text-white ring-1 bg-violet-950 w-full mb-4  ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3"
+  />
+  <textarea
+    name="message"
+    id="name"
+    className=" text-white ring-1 bg-violet-950 w-full   ring-gray-400  focus:ring-1  focus:ring-cyan-400 focus:outline-none rounded-lg  p-3 py-5"
+    placeholder="Message" autoComplete="message"
+    required
+  ></textarea>
+   <input className="rounded-full font-medium text-white border-2 border-cyan-400 py-2 mt-4 px-5 hover:bg-cyan-400" type="submit" value="Send Message" />
+   {/* <button className="rounded-full font-medium text-white border-2 border-cyan-400 py-2 mt-4 px-5 hover:bg-cyan-400">Send Message</button> */}
+</form>
+</div>
+</Slide>
       </div>
     </div>
   );

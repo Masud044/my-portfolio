@@ -8,11 +8,12 @@ import {
     FaFacebook,
   } from "react-icons/fa";
   import { MdEmail } from "react-icons/md";
+import { Slide } from "react-awesome-reveal";
 const Footer = () => {
     return (
         <div className="mt-10 bg-[#0a192f] w-full px-5">
-             
-            <div className="grid md:grid-cols-3 grid-cols-1 py-2 gap-10">
+
+          <Slide direction="down" duration={2000}>  <div className="grid md:grid-cols-3 grid-cols-1 py-2 gap-10">
                 <div className="text-white mt-5">
                 <h1 className="text-[20px]  font-medium text-white opacity-80 mb-5">Masud | protfolio</h1>
                 <p className="font-thin  mb-10">Thank You for visiting <br /> my personal portfolio website
@@ -123,7 +124,9 @@ const Footer = () => {
 
   
                 </div>
-            </div>
+            </div></Slide>
+             
+          
              
         </div>
     );

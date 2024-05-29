@@ -8,6 +8,7 @@ import {
   FaArrowDown 
 } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { Slide } from "react-awesome-reveal";
 
 const BannerDescription = () => {
   const [type] = useTypewriter({
@@ -26,7 +27,8 @@ const BannerDescription = () => {
       
       className="md:grid md:grid-cols-2 mt-24 md:mt-0"
     >
-      <div className="md:mt-40 text-center md:text-start">
+      <div  className="md:mt-40 text-center md:text-start">
+        <Slide duration={1500} direction="left">
         <h1 className="font-medium  text-4xl text-white mb-3">Hi</h1>
         <h1 className="font-medium text-4xl text-white mb-5">
           I'm Masud{" "}
@@ -38,8 +40,11 @@ const BannerDescription = () => {
             <Cursor cursorColor="red"></Cursor>
           </span>
         </h1>
-
+        </Slide>
+       
+        <Slide direction="left" duration={2000}>
         <div className="mt-10 flex item-center justify-center md:justify-start">
+         
           <Link
             className="bg-cyan-600 px-9 py-2 rounded-full  text-white font-medium cursor-pointer"
             to="About"
@@ -59,19 +64,25 @@ const BannerDescription = () => {
            <FaArrowDown className="text-white -ml-8 mt-3"/>
            
           </Link>
+          </div>
+          </Slide>
           
-        </div>
-
-        <div className="flex gap-5 mt-12 md:justify-start justify-center items-center">
-          <a href="/"> <FaLinkedin className="h-6 w-6 text-white"></FaLinkedin></a>
-          <a href="/"><FaGithub className="h-6 w-6 text-white"></FaGithub></a>
+          
+        
+ <Slide duration={2000} direction="down">
+ <div className="flex gap-5 mt-12 md:justify-start justify-center items-center">
+          <a href="/"> <FaLinkedin className="h-8 w-8 text-cyan-400"></FaLinkedin></a>
+          <a href="/"><FaGithub className="h-8 w-8 text-cyan-400"></FaGithub></a>
          
-          <a href="/"><FaInstagramSquare className="h-6 w-6 text-white"></FaInstagramSquare></a>
-          <a href="/"><FaFacebook className="h-6 w-6 text-white"></FaFacebook></a>
+          <a href="/"><FaInstagramSquare className="h-8 w-8 text-cyan-400"></FaInstagramSquare></a>
+          <a href="/"><FaFacebook className="h-8 w-8 text-cyan-400"></FaFacebook></a>
           
           
         </div>
+ </Slide>
+        
       </div>
+      <Slide duration={2000} direction="right">
       <div className="md:flex-none flex items-center justify-center mt-40">
         <img
           className="rounded-full "
@@ -81,6 +92,8 @@ const BannerDescription = () => {
           height={250}
         />
       </div>
+      </Slide>
+      
     </div>
   );
 };
