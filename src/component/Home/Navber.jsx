@@ -150,6 +150,7 @@ const Navber = () => {
 
           <li>
             <Link
+             onClick={handleClick}
               className="text-white text-[20px] font-medium cursor-pointer"
               to="Work"
               smooth={true}

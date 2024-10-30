@@ -110,11 +110,11 @@ const Footer = () => {
               <FaLinkedin className="h-5 w-5 text-cyan-400  "></FaLinkedin>
             </a>
 
-            <a href="/">
+            <a href="https://github.com/Masud044" target="blank">
               <FaGithub className="h-5 w-5 text-cyan-400 "></FaGithub>
             </a>
 
-            <a href="/">
+            <a href="https://www.facebook.com/profile.php?id=100015750668482" target="blank">
               <FaFacebook className="h-5 w-5 text-cyan-400 "></FaFacebook>
             </a>
           </div>

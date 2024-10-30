@@ -10,7 +10,10 @@ import {
 import { Link } from "react-scroll";
 import { Slide } from "react-awesome-reveal";
 
+
+
 const BannerDescription = () => {
+  
   const [type] = useTypewriter({
     words: [
       " FullStack Developer",
@@ -22,7 +25,9 @@ const BannerDescription = () => {
     deleteSpeed: 80,
   });
   return (
-    <div
+    <div>
+     
+<div
     name='Home'
       
       className="md:grid md:grid-cols-2 mt-24 md:mt-0"
@@ -72,10 +77,10 @@ const BannerDescription = () => {
  <Slide duration={2000} direction="down">
  <div className="flex gap-5 mt-12 md:justify-start justify-center items-center">
           <a href="/"> <FaLinkedin className="h-8 w-8 text-cyan-400"></FaLinkedin></a>
-          <a href="/"><FaGithub className="h-8 w-8 text-cyan-400"></FaGithub></a>
+          <a href="https://github.com/Masud044" target="blank"><FaGithub className="h-8 w-8 text-cyan-400"></FaGithub></a>
          
           <a href="/"><FaInstagramSquare className="h-8 w-8 text-cyan-400"></FaInstagramSquare></a>
-          <a href="/"><FaFacebook className="h-8 w-8 text-cyan-400"></FaFacebook></a>
+          <a href="https://www.facebook.com/profile.php?id=100015750668482" target="blank"><FaFacebook className="h-8 w-8 text-cyan-400"></FaFacebook></a>
           
           
         </div>
@@ -95,6 +100,8 @@ const BannerDescription = () => {
       </Slide>
       
     </div>
+    </div>
+    
   );
 };
 

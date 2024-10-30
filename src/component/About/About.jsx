@@ -1,11 +1,21 @@
 import { Slide } from "react-awesome-reveal";
 import image from "../../assets/masud2.jpg";
 import { FaArrowDown } from "react-icons/fa";
-import resume from '../../assets/Resume of Showkat Ali.pdf'
+// import resume from '../../assets/Resume of Showkat Ali.pdf'
+
+
 
 const About = () => {
+  
+
   return (
-    <div name="About" className="mt-40">
+
+     <div>
+      
+      
+
+      <div name="About" className="mt-40">
+      
       <Slide duration={2000} direction="left">
         {" "}
         <h1 className="text-white text-center text-4xl font-medium ">
@@ -55,11 +65,11 @@ const About = () => {
           <Slide duration={2000} direction="right">
             {" "}
             <div className="flex md:justify-start justify-center items-center">
-              <a href={resume} download='Resume'>
+              {/* <a href='' download='Resume'> */}
               <button className="bg-cyan-600 px-9 py-2 rounded-full mt-6 border-none outline-none  text-white font-medium cursor-pointer">
                 Resume
               </button>
-              </a>
+              {/* </a> */}
              
               <FaArrowDown className="text-white -ml-8  mt-6" />
             </div>
@@ -67,6 +77,8 @@ const About = () => {
         </div>
       </div>
     </div>
+     </div>
+   
   );
 };
 

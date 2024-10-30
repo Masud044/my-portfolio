@@ -28,13 +28,13 @@ const Work = () => {
             
         <div className='overlay opacity-0 group-hover:opacity-100  text-center' >
              <span className='text-white tracking-wider '>
-             Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
+             Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase,Stripe payment
              </span>
              <div className='flex gap-4 items-center justify-center mt-4'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/Yoga-Meditation-School-client/tree/main" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://assignment-12-6f540.web.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium '>LiveSite</button>
                  </a>
 
@@ -54,10 +54,10 @@ const Work = () => {
              Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
              </span>
              <div className='flex gap-4 items-center justify-center mt-4'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/jewelry-shop-client" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://jewelry-shop-9ccba.web.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium '>LiveSite</button>
                  </a>
 
@@ -75,10 +75,10 @@ const Work = () => {
              Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
              </span>
              <div className='mt-4 flex gap-4 items-center justify-center'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/Education-Toy-Market-Place-client/tree/main" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://assignment-11-client-sit-276f5.web.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>LiveSite</button>
                  </a>
 
@@ -97,10 +97,10 @@ const Work = () => {
              Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
              </span>
              <div className='mt-4 flex gap-4 items-center justify-center'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/chef-recipe-hunter-client/tree/main" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://assignment-clientsite-10.web.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>LiveSite</button>
                  </a>
 
@@ -117,13 +117,13 @@ const Work = () => {
             
         <div className='overlay opacity-0 group-hover:opacity-100 text-center' >
              <span className='text-white tracking-wider '>
-             Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
+             Technologies: ReactJs, React Router, JavaScript, Tailwind CSS
              </span>
              <div className='mt-4 flex gap-4 items-center justify-center'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/Bank-simulation" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://bank-simulate.netlify.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>LiveSite</button>
                  </a>
 
@@ -137,13 +137,13 @@ const Work = () => {
             
         <div className='overlay opacity-0 group-hover:opacity-100 text-center' >
              <span className='text-white tracking-wider '>
-             Technologies: ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase
+             Technologies: JavaScript, Tailwind CSS
              </span>
              <div className='mt-4 flex gap-4 items-center justify-center'>
-                 <a href="/">
+                 <a href="https://github.com/Masud044/Universe-hub?tab=readme-ov-file" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>GitHub</button>
                  </a>
-                 <a href="/">
+                 <a href="https://universe-javascript-project.netlify.app/" target='blank'>
                     <button className='text-white bg-cyan-400 py-2 px-4 rounded-lg font-medium'>LiveSite</button>
                  </a>
 
