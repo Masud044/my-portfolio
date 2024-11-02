@@ -76,10 +76,10 @@ const BannerDescription = () => {
         
  <Slide duration={2000} direction="down">
  <div className="flex gap-5 mt-12 md:justify-start justify-center items-center">
-          <a href="/"> <FaLinkedin className="h-8 w-8 text-cyan-400"></FaLinkedin></a>
+          <a href="https://www.linkedin.com/in/md-masudmia/"> <FaLinkedin className="h-8 w-8 text-cyan-400"></FaLinkedin></a>
           <a href="https://github.com/Masud044" target="blank"><FaGithub className="h-8 w-8 text-cyan-400"></FaGithub></a>
          
-          <a href="/"><FaInstagramSquare className="h-8 w-8 text-cyan-400"></FaInstagramSquare></a>
+          {/* <a href="/"><FaInstagramSquare className="h-8 w-8 text-cyan-400"></FaInstagramSquare></a> */}
           <a href="https://www.facebook.com/profile.php?id=100015750668482" target="blank"><FaFacebook className="h-8 w-8 text-cyan-400"></FaFacebook></a>
           
           

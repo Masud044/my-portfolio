@@ -85,7 +85,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex gap-5 mt-12 md:justify-start items-center px-5 md:px-0">
-            <a href="/">
+            <a href="https://www.linkedin.com/in/md-masudmia/">
               <FaLinkedin className="h-8 w-8 text-cyan-400  "></FaLinkedin>
             </a>
 

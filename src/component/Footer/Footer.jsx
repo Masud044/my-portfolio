@@ -106,7 +106,7 @@ const Footer = () => {
    <p className="text-white opacity-80">Rangpur, Bangladesh</p>
    </div>
    <div className="flex gap-5 mt-4 md:justify-start items-center">
-            <a href="/">
+            <a href="https://www.linkedin.com/in/md-masudmia/">
               <FaLinkedin className="h-5 w-5 text-cyan-400  "></FaLinkedin>
             </a>
 
