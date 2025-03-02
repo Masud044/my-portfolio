@@ -1,7 +1,7 @@
 import { Slide } from "react-awesome-reveal";
 import image from "../../assets/masud2.jpg";
 import { FaArrowDown } from "react-icons/fa";
- import resume from '../../assets/Resume of Masud.pdf'
+ import resume from '../../assets/Resume of Md. Masud Mia.pdf'
 
 
 

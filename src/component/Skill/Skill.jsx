@@ -14,6 +14,7 @@ import react from "../../assets/react.png";
 import redux from "../../assets/redux.png";
 import tailwind from "../../assets/tailwind.png";
 import git from "../../assets/git.png";
+import next from "../../assets/next.png";
 import { Slide } from "react-awesome-reveal";
 
 const Skill = () => {
@@ -93,6 +94,10 @@ const Skill = () => {
           <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-8 text-white mx-auto " src={git} alt="git" />
             <p className="my-4 text-white">Git</p>
+          </div>
+          <div className="shadow-md bg-[#0a192f] shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-5 text-white mx-auto " src={next} alt="next" />
+            <p className="my-4 text-white">Next.js</p>
           </div>
         </div>
       </Slide>

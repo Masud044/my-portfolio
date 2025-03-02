@@ -1,6 +1,6 @@
 import { FaGraduationCap } from "react-icons/fa";
 
-import logo from '../../assets/BSMRSTU_View.jpg'
+import logo from '../../assets/GSTU.jpg'
 import { Slide } from "react-awesome-reveal";
 
 
@@ -27,7 +27,7 @@ const Education = () => {
                   
                    <div>
                    <h1 className="mt-2 text-xl font-medium text-black text-center md:text-start">Bachelor of Science in Computer Science and Engineering</h1>
-                   <h1 className="mt-2 mb-2 font-sans text-center md:text-start">Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalgonj, Bangladesh</h1>
+                   <h1 className="mt-2 mb-2 font-sans text-center md:text-start">Gopalganj Science and Technology University, Bangladesh</h1>
                    <p className="font-medium text-cyan-400 text-center md:text-start">2018-2022 | Completed</p>
                    </div>
                       
