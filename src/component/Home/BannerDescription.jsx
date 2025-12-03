@@ -1,5 +1,5 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import image from "../../assets/77.jpg";
+import image from "../../assets/image.jpg";
 import {
   FaLinkedin,
   FaGithub,
